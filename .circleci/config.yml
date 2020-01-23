@@ -14,8 +14,6 @@ references:
   kind_configuration: &kind_configuration
     pre_script: e2e/pre.sh
     script: e2e/test.sh
-    kind_version: 0.7.0
-    command_runner_image: quay.io/reactiveops/ci-images:dev-80d3082a4d6d1fef922e67903fa44aa5a69a236f-alpine
     requires:
       - test
       - rok8s-scripts/docker_build_and_push
