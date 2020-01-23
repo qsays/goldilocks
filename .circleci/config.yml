@@ -17,7 +17,7 @@ references:
     executor:
       name: rok8s-scripts/ci-images
       version: dev-4c30caad16348202aa7ceb32586bd7c3f5be3ab7-stretch
-    command_runner_image: quay.io/reactiveops/ci-images:dev-4c30caad16348202aa7ceb32586bd7c3f5be3ab7-stretch
+    command_runner_image: quay.io/reactiveops/ci-images:dev-4c30caad16348202aa7ceb32586bd7c3f5be3ab7-alpine
     requires:
       - test
       - rok8s-scripts/docker_build_and_push
